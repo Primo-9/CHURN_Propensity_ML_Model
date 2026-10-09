@@ -34,6 +34,8 @@ The goal is not only high accuracy, but high recall and probability-based risk s
   - scikit-learn
   - imblearn
   - XGBoost
+  - LogisticRegression
+  - RandomForest
   - pandas  / numpy
   - matplotlib / seaborn
 
