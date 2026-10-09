@@ -8,7 +8,7 @@ This sample data module tracks a fictional telco company's customer churn based 
 
 The target variable is "Churn Value"
 
-# Customer Churn Prediction – End-to-End Machine Learning Pipeline 🧠
+# Customer Churn Prediction – End-to-End Machine Learning Pipeline
 
 Customer churn is a critical business problem in subscription-based industries.
 Acquiring new customers is significantly more expensive than retaining existing ones, so early identification of churn risk is essential.
