@@ -1,4 +1,4 @@
-# 🗂️ Data Source
+# Data Source
 
 The data in this project was obtained from IBM Cognos Analytics.
 
@@ -8,7 +8,7 @@ This sample data module tracks a fictional telco company's customer churn based 
 
 The target variable is "Churn Value"
 
-# 📉 Customer Churn Prediction – End-to-End Machine Learning Pipeline 🧠
+# Customer Churn Prediction – End-to-End Machine Learning Pipeline 🧠
 
 Customer churn is a critical business problem in subscription-based industries.
 Acquiring new customers is significantly more expensive than retaining existing ones, so early identification of churn risk is essential.
@@ -17,7 +17,7 @@ This project builds an end-to-end machine learning pipeline to predict customer 
 
 The goal is not only high accuracy, but high recall and probability-based risk scoring, enabling proactive customer retention strategies.
 
-# 🎯 Objectives
+# Objectives
 * Predict which customers are likely to churn.
 
 * Maximize recall (catch as many churners as possible), while trying to achieve a reasonable precision.
@@ -28,25 +28,25 @@ The goal is not only high accuracy, but high recall and probability-based risk s
 
 * Compare multiple models and evaluate stacking performance
 
-# Tools & Technologies 🧰
+# Tools & Technologies
 
-* Python 🐍
-  - scikit-learn 🧠
-  - imblearn ⚖️
-  - XGBoost ⚡
-  - pandas 🐼  / numpy 0️⃣1️⃣
-  - matplotlib / seaborn 📈
+* Python
+  - scikit-learn
+  - imblearn
+  - XGBoost
+  - pandas  / numpy
+  - matplotlib / seaborn
 
-# Methodology 📓
+# Methodology
 
-1. EDA 🔎
-2. Data Cleaning 🧹
-3. Feature Engineering 🔧
-4. Handling Class Imbalance ⚖️
-5. Model Selection and Hyperparameter Tuning 🤖 (RF, XGB, LR, Stack)
-6. Result Visualization and Analysis 📊
+1. EDA
+2. Data Cleaning
+3. Feature Engineering
+4. Handling Class Imbalance
+5. Model Selection and Hyperparameter Tuning (RF, XGB, LR, Stack)
+6. Result Visualization and Analysis
 
-# Model Performance 🔝
+# Model Performance
 
 | Model | ROC-AUC (Test) | ROC-AUC (5-Fold CV) | PR-AUC (Test) | Test-CV Gap | Ranking | Business Impact |
 |-------|----------------|---------------------|---------------|-------------|---------|-----------------|
@@ -90,7 +90,7 @@ The goal is not only high accuracy, but high recall and probability-based risk s
 - State-of-the-art performance
 - Best for high-stakes predictions
 
-# Discussion 💬
+# Discussion
 
 This project successfully developed a machine learning solution to predict customer churn in the telecommunications industry, achieving 88.47% ROC-AUC and 68.61% PR-AUC using a Stacking Ensemble approach. More importantly, the model demonstrates practical business value by identifying 89% of potential churners while maintaining operational feasibility.
 This model was trained for predicting churn, the churn rate for this dataset was 26.5%. Since churn is an imbalanced class, accuracy is not a realistic metric to determine the churn rate, for this reason, recall,  precision and PR-AVG were the main focus.
@@ -115,7 +115,7 @@ So business wise it is feasible trading the precision for a higher recall, thus 
 <img width="578" height="466" alt="image" src="https://github.com/user-attachments/assets/4b2fdae9-eee7-4f6f-9f7e-749520d05805" />
 
 
-# Conclusions 🔚
+# Conclusions
 
 1. Simpler is often Better
 2. PR-AUC > ROC-AUC for Imbalanced Data
