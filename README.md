@@ -113,7 +113,7 @@ One of the most critical findings is that the optimal threshold is NOT 0.5 (the 
 - Precision: 53% (369 correct of 619 customers flagged)
 At a classification threshold of 0.2, the model achieves 88% recall and 53% precision, identifying 369 of 374 churners while flagging 973 customers. This prioritizes minimizing missed churners over reducing unnecessary outreach. Given that customer loss may be more costly than contacting a customer who would have stayed, this trade-off could be economically justified, provided the expected retention benefits outweigh campaign costs.
 
-<img width="578" height="466" alt="image" src="https://github.com/user-attachments/assets/4b2fdae9-eee7-4f6f-9f7e-749520d05805" />
+<img width="578" height="470" alt="image" src="https://github.com/user-attachments/assets/789871d1-6aa4-4870-a72e-5af0a64fc8bf" />
 
 
 # Conclusions
