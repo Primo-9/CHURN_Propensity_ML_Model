@@ -102,7 +102,8 @@ The goal is not only high accuracy, but high recall and probability-based risk s
 This project successfully developed a machine learning solution to predict customer churn in the telecommunications industry, achieving 88.47% ROC-AUC and 68.61% PR-AUC using a Stacking Ensemble approach. More importantly, the model demonstrates practical business value by identifying 89% of potential churners while maintaining operational feasibility.
 This model was trained for predicting churn, the churn rate for this dataset was 26.5%. Since churn is an imbalanced class, accuracy is not a realistic metric to determine the churn rate, for this reason, recall,  precision and PR-AVG were the main focus.
 
-<img width="542" height="417" alt="image" src="https://github.com/user-attachments/assets/65cc8b68-7fd4-4d80-9127-b73386f4f518" />
+<img width="547" height="441" alt="image" src="https://github.com/user-attachments/assets/12df0fea-98ae-4562-9f7c-7be6c7c0d521" />
+
 
 
 **Stacking Ensemble** vs **Logistic Regression**: +0.16% ROC-AUC, +0.37% PR-AUC.
