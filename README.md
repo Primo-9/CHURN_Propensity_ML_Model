@@ -71,7 +71,8 @@ The goal is not only high accuracy, but high recall and probability-based risk s
 - Measures how well the model distinguishes between churners and non-churners
 - Best model: **88.47%** (excellent discrimination)
 
-<img width="559" height="443" alt="image" src="https://github.com/user-attachments/assets/7b58920a-6fa4-49ef-b5c2-158a75325c73" />
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/decaf2b1-29c9-43e2-a728-e71cd7847602" />
+
 
 **PR-AVG (Precision-Recall)**
 - More reliable for imbalanced data (26.5% churn rate)
