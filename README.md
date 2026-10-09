@@ -79,7 +79,9 @@ The goal is not only high accuracy, but high recall and probability-based risk s
 - Shows real-world performance: **68.61%** average precision across all recall levels
 - **2.59x better** than random predictions
 
-<img width="557" height="441" alt="image" src="https://github.com/user-attachments/assets/f9c0a9bc-eb4a-45f6-9a6f-2f46c1a26742" />
+
+
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/8f5736fe-97df-4454-b711-b692ef11abc4" />
 
 
 ### Model Selection
